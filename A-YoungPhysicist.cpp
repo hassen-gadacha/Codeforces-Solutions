@@ -3,6 +3,10 @@ using namespace std;
  
 int main()
 {
+    #ifdef HASSEN
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    #endif
     int n, x, y, z, xsum(0), ysum(0), zsum(0);
     cin >> n;
  

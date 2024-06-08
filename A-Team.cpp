@@ -2,6 +2,10 @@
 using namespace std;
  
 int main() {
+    #ifdef HASSEN
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    #endif
     int n;
     cin >> n;
     int p = 0;

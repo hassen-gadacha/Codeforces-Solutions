@@ -3,6 +3,10 @@
 using namespace std;
  
 int main(){
+	#ifdef HASSEN
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+	#endif
 	int t; cin >> t;
 	while(t--){
 		string s; cin >> s;

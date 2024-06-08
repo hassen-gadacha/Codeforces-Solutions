@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
+    #ifdef HASSEN
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    #endif
     string x;
     cin>>x;
     bool f=false;
